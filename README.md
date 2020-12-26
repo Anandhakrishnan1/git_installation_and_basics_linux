@@ -1,1 +1,1 @@
-# git_demo
+# git_installation_&_basics
