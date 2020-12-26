@@ -1,15 +1,45 @@
 1. Installing
-    sudo apt install git
+      sudo apt install git
 
 2. Create your identity
-    git config --global user.name "username"
-    git config --global user.email <emailid>
+      git config --global user.name "username"
+      git config --global user.email <emailid>
 
 3. Check git setting
-    git config --list
+      git config --list
 
 4. clone a git repository
-    git clone <repository url>
+      git clone <repository url>
 
 5. Initalize a new git repository
-    git Init
+      git Init
+
+6. Checking git status
+      git status
+
+7. Add a new file
+      git add <file name>
+
+8. Commiting the changes
+      git commit -m 'comment'
+
+9. Push changes into master branch
+      git push
+
+10. Deleting file from git
+      git rm <file name>
+
+11. git reset
+      git reset --hard commit number/HEAD
+
+12. sync your local git codebase with the latest codebase of the git remote server repository
+      git pull
+
+13. Viewing log file
+      git log
+
+14. Checking Git branch
+      git branch
+
+15.Say you made changes in one of your file but you don’t want to commit it to the repo then you can stash it
+      git stash
