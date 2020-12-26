@@ -1,0 +1,15 @@
+1. Installing
+    sudo apt install git
+
+2. Create your identity
+    git config --global user.name "username"
+    git config --global user.email <emailid>
+
+3. Check git setting
+    git config --list
+
+4. clone a git repository
+    git clone <repository url>
+
+5. Initalize a new git repository
+    git Init
